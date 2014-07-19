@@ -27,7 +27,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvT-t7-uAS">
-                                <rect key="frame" x="429" y="213" width="339" height="42"/>
+                                <rect key="frame" x="422" y="213" width="339" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="highlightedColor"/>
@@ -67,6 +67,7 @@
                         <outlet property="currentDesc" destination="28j-Ji-jZ3" id="2CM-LT-WwE"/>
                         <outlet property="currentLocation" destination="lTL-pm-p5j" id="CB6-z8-JHH"/>
                         <outlet property="currentTemp" destination="J4r-C9-cZi" id="eLs-Jc-TvN"/>
+                        <outlet property="lastRetrieved" destination="IvT-t7-uAS" id="Xz5-5f-qL6"/>
                         <outlet property="mamaSays" destination="I4k-p1-fDG" id="nMe-BP-5lK"/>
                         <outlet property="refresh" destination="lbH-07-SOn" id="ThD-zm-KSx"/>
                     </connections>
