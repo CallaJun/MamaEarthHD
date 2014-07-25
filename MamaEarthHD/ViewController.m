@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "GetWeather.h"
-#import <iAd/iAd.h>
 
 @interface ViewController ()
 @property (strong, nonatomic) CLLocationManager *locationManager;
@@ -26,7 +25,6 @@ BOOL weatherCalled = 0;
     
     [_refresh setTitle:@"Refresh" forState:UIControlStateNormal];
     
-    self.canDisplayBannerAds = YES;
 }
 - (void)didReceiveMemoryWarning
 {
@@ -243,18 +241,5 @@ BOOL weatherCalled = 0;
     weatherCalled = 0;
     
     [self.locationManager startUpdatingLocation];
-}
-#pragma mark iAd Delegate Methods
--(void)bannerViewDidLoadAd:(ADBannerView *)banner {
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:1];
-    [banner setAlpha:1];
-    [UIView commitAnimations];
-}
--(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:1];
-    [banner setAlpha:0 ];
-    [UIView commitAnimations];
 }
 @end

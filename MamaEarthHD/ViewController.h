@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-#import <iAd/iAd.h>
-@interface ViewController : UIViewController <CLLocationManagerDelegate, ADBannerViewDelegate> {
+@interface ViewController : UIViewController <CLLocationManagerDelegate> {
 }
 @property (weak, nonatomic) IBOutlet UILabel *currentLocation;
 @property (weak, nonatomic) IBOutlet UILabel *currentTemp;

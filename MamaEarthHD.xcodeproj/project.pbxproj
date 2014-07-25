@@ -21,7 +21,6 @@
 		AB451ACB197980040015F106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB451AAD197980040015F106 /* UIKit.framework */; };
 		AB451AD3197980040015F106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB451AD1197980040015F106 /* InfoPlist.strings */; };
 		AB451AD5197980040015F106 /* MamaEarthHDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB451AD4197980040015F106 /* MamaEarthHDTests.m */; };
-		AB451ADF1979828E0015F106 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB451ADE1979828E0015F106 /* iAd.framework */; };
 		AB451AE2197982D40015F106 /* GetWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = AB451AE1197982D40015F106 /* GetWeather.m */; };
 		AB451B0B197983800015F106 /* Blizzard1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB451AE4197983800015F106 /* Blizzard1.png */; };
 		AB451B0C197983800015F106 /* Blizzard2.png in Resources */ = {isa = PBXBuildFile; fileRef = AB451AE5197983800015F106 /* Blizzard2.png */; };
@@ -141,7 +140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB451ADF1979828E0015F106 /* iAd.framework in Frameworks */,
 				AB451AAC197980040015F106 /* CoreGraphics.framework in Frameworks */,
 				AB451AAE197980040015F106 /* UIKit.framework in Frameworks */,
 				AB451AAA197980040015F106 /* Foundation.framework in Frameworks */,
