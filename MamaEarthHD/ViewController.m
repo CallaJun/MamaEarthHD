@@ -46,6 +46,10 @@ BOOL weatherCalled = 0;
             UIImage *Sunny1 = [UIImage imageNamed:@"Sunny1.png"];
             [_mamaSays setImage:Sunny1];
         }
+        else if(60 > weather.Fvalue && ([weather.currentDescription rangeOfString:@"Sunny" options:NSCaseInsensitiveSearch].location != NSNotFound)) {
+            UIImage *CloudyOvercast1 = [UIImage imageNamed:@"CloudyOvercast1.png"];
+            [_mamaSays setImage:CloudyOvercast1];
+        }
         //Cloudy or overcast
         else if(60 <= weather.Fvalue && (([weather.currentDescription rangeOfString:@"Clear"].location != NSNotFound) || ([weather.currentDescription rangeOfString:@"Cloudy"].location != NSNotFound) || ([weather.currentDescription rangeOfString:@"Overcast"].location != NSNotFound))) {
             UIImage *CloudyOvercast1 = [UIImage imageNamed:@"CloudyOvercast1.png"];
